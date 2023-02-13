@@ -1,0 +1,126 @@
+@media (max-width: 1000px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+    }
+    .nav.open .nav-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1;
+        padding: 46px 30px;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 51px;
+        
+    }
+    .nav-link  {
+        color: #828282;
+       
+    }
+    .nav-link.active {
+        color: #090909;
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+        color: #090909;
+    }
+    
+    .header-nav {
+
+        margin-bottom: 50px;
+    }
+    .header-row {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .header-content {
+         margin-top: 0;
+    }
+}
+
+@media (max-width:650px) {
+    .header-content {
+        max-width: 307px;
+        align-self: flex-start;
+        
+    }
+    .header-content h1 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 51px;
+    }
+    .header-content p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+    }
+    .header-img img {
+        width: 296px;
+        height: 367px;
+    }
+    .services {
+        padding: 60px 0;
+    }
+    .services .container {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    .service-card {
+        flex: 1 1 0;
+        padding-right: 40px;
+    }
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+    .project-title {
+        margin-top: 30px;  
+    }
+    .project + .project {
+        margin-top: 55px;
+    }
+    .contacts {
+        padding: 60px 0;
+    }
+    .contacts-title {
+        margin-bottom: 40px;
+    }
+    .contacts-btn {
+        margin-bottom: 70px;     
+    }
+    .btn {
+        margin-top: 40px;
+    }
+    .contacts-social {
+        margin-bottom: 20px;
+    }
+    .contacts-content {
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) and (min-width: 650px) {
+    .service-card img {
+        align-self: center;
+    }
+    .service-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

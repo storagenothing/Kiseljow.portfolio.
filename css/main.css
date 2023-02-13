@@ -1,0 +1,221 @@
+@import "./reset.css";
+@import "./media.css";
+body {
+    font-family: 'Satoshi', sans-serif;;
+    color: #000000;
+}
+.header {
+    padding-top: 48px;
+    background-color: #F1F1F1;
+}
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    text-decoration: none; 
+}
+.header-img {
+}
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    padding-right: 12px;
+    padding-bottom: 3px;
+    position: relative; 
+    color: inherit;
+    
+}
+.logo:hover {
+    color:#22AF39;
+    transition: 0.3s ease-in-out;
+
+}
+.logo::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #22AF39 ;
+    border-radius: 50%;
+    right: 0;
+    bottom: 0;
+}
+.logo:hover:after {
+    background-color: #000000;
+    transition: 0.3s ease-in-out;
+    
+
+}
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.nav-link:hover {
+    color: #606060;
+}
+
+.nav-btn {
+    display: none;  
+}
+.nav .nav-btn:hover {
+    color: #929292;
+}
+.nav.open .nav-btn:hover {
+    color: #000000;
+}
+
+.nav-link {
+  color: #000000;
+}
+.nav-link.active {
+    color: #606060;
+}
+.nav-link.active:hover {
+    color: #000000;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+.h1 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%
+} 
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+} 
+.services {
+ padding: 90px 0;
+}
+.services .container {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+.service-row {
+ display: flex;
+ column-gap: 30px;
+ flex-wrap: wrap;
+
+}
+.service-card {
+ 
+}
+.service-card-img {
+    margin-bottom: 30px;
+    
+}
+
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.service-card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+    
+}
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+.project-title {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.project-title a {
+    color: #000000;
+    text-decoration: underline;
+
+}
+.project + .project {
+  margin-top: 90px;
+}
+.project {
+    text-align: center;
+}
+
+.contacts {
+    padding: 90px 0;
+     
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+.contacts-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-btn {
+    margin-bottom: 80px;
+    
+}
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background: #22AF39;
+    margin-top: 40px ;
+}
+.contacts-social {
+    display: flex;
+    column-gap: 70px;
+    margin-bottom: 40px;
+
+}
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    text-align: center;
+}
+.contacts .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
